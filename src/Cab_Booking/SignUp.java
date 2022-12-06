@@ -175,7 +175,7 @@ public class SignUp extends javax.swing.JFrame {
                 String sql = "insert into SignUp values('"+username+"', '"+name+"', '"+password+"', '"+phno+"')";
 		c.s.executeUpdate(sql);
 		JOptionPane.showMessageDialog(null, "Account Created Successfully ");
-                
+//                
 //                new Login().setVisible(true);
 //                setVisible(false);
          }catch(Exception e){
@@ -184,7 +184,7 @@ public class SignUp extends javax.swing.JFrame {
     }//GEN-LAST:event_btnSignupActionPerformed
 
     private void btnBackActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBackActionPerformed
-        // TODO add your handling code here:
+//        // TODO add your handling code here:
 //        this.setVisible(false);
 //                new Login().setVisible(true);
     }//GEN-LAST:event_btnBackActionPerformed
