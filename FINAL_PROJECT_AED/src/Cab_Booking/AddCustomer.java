@@ -33,7 +33,7 @@ public class AddCustomer extends javax.swing.JFrame {
 
         jLabel1.setText("AddCustomer");
 
-        jButton1.setText("'submit");
+        jButton1.setText("submit");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
@@ -50,18 +50,18 @@ public class AddCustomer extends javax.swing.JFrame {
                         .addGap(147, 147, 147)
                         .addComponent(jLabel1))
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(131, 131, 131)
+                        .addGap(162, 162, 162)
                         .addComponent(jButton1)))
-                .addContainerGap(173, Short.MAX_VALUE))
+                .addContainerGap(166, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addGap(21, 21, 21)
                 .addComponent(jLabel1)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 191, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 159, Short.MAX_VALUE)
                 .addComponent(jButton1)
-                .addGap(48, 48, 48))
+                .addGap(80, 80, 80))
         );
 
         pack();
